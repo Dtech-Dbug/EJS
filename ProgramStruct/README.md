@@ -128,3 +128,5 @@ LuckyNumber = 3;
 console.log(LuckyNumber);
 //output : 3
 ```
+
+**Note:** To assign value to a pre-defined binding you do not have to implictly use the special `let` keyword again. Why? We have already used it to define a binding `LuckyNumber` in the above snippet.But not essentially asked it to point at a value. So in order to make a predefined binding point at something, we just simply use the `=` operator and the expression we want the binding to grab or point at.
