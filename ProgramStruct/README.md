@@ -144,3 +144,7 @@ let WholeNumber = 0,
 console.log(Wholenumber + NaturalNumber + EvenNumber);
 //output : 0 + 1 + 2 = 3
 ```
+
+At this moment, let us not get into the nuances of the special keywords like `let, var, const`
+Although similar, they have subtle difference.
+Check the out in details here : [let vs. var vs. const in js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
