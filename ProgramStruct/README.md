@@ -112,6 +112,8 @@ let FirstGiftBySanta = 1000;
 
 let SecondGiftBySanta = FirstGiftBySanta + 2000;
 
-console.log(SecondGift);
+console.log(SecondGiftBySanta);
 //output : 3000 (1000 + 2000)
 ```
+
+_When you define a binding, and do not assign it any value to point at, it ends up pointing to a bogus address. HEnce if you try to retrieve the value of such a binding you are likely to see `undefined`_
