@@ -30,9 +30,11 @@ Where p , q, r are just statement variables which can be substituted by actual e
 
 **Note :** A statement is an expression that has a consistent truth value. i.e, it can either be true or false but never both. On the contrary, a sentence is an expression that bears inconsistent truth values meaning for some cases it may be true and other cases false.
 
+---
+
 #### Statements
 
-We introduced the =fundamenetals of statements just a few lines ago.
+We introduced the fundamenetals of statements just a few lines ago.
 The simplest statement in programming paradigm is an expression that ends with a semi-colon.
 
 Example :
@@ -47,3 +49,5 @@ Hello World;
 That is it. That is a statement. Although very trivial and useless admittedly, but does not change the fact that the above lines are two statements.
 
 🎯 **A statement only amounts to something when it affects the environment(in context of the program scope). It could be something as simple as printing something on the console or updating a variable which is then used by some other block of code. Either cases the statements are likely to affect the program and it's state. These changes and similar changes alike are called _SIDE EFFECTS_ .**
+
+---
