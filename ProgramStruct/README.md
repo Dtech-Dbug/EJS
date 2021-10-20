@@ -148,3 +148,27 @@ console.log(Wholenumber + NaturalNumber + EvenNumber);
 At this moment, let us not get into the nuances of the special keywords like `let, var, const`
 Although similar, they have subtle difference.
 Check them out in details here, in this fine blog by FreeCodeCamp : [let vs. var vs. const in js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+
+---
+
+### Binding Names
+
+Naming idetifiers or bindings or variables is one of the things most people struggle with. But the best practise is **naming it in such a way that is self explanatory and relevant to it's purpose**.
+
+Consider the below snippet :
+
+```js
+let x = "Sweet";
+
+console.log(x);
+//output : Sweet
+
+let Dessert = "Sweet";
+
+console.log(Dessert);
+//output : Sweet
+```
+
+Both the code blocks essentially does the same thing and produces the same value. But they differ largely in the way they are defined. A person can't just read x, and guess what it is pointing at, on the other hand the variable `Dessert` is much more sensible than just `x`. So any person reading the code can guess what the variable `Dessert` is all about and be completely clueless about `x`.
+
+Although it does not make much sense or difference in toy programs like these, but in real world scenarios where the codebase is usually large and messy - naming convention has to be followed for better productivity and not waste time guessing what an identifier idnetifies!
