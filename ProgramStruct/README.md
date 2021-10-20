@@ -117,3 +117,14 @@ console.log(SecondGiftBySanta);
 ```
 
 _When you define a binding, and do not assign it any value to point at, it ends up pointing to a bogus address. HEnce if you try to retrieve the value of such a binding you are likely to see `undefined`_
+
+But, you can assign a value to it later in your code. Example :
+
+```js
+let LuckyNumber;
+
+LuckyNumber = 3;
+
+console.log(LuckyNumber);
+//output : 3
+```
