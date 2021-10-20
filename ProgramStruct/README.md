@@ -104,14 +104,14 @@ let Welcome = Greet + Question;
 The above example may seem a little cryptic if you are an absolute beginner to programming. But what it is doing essentially is just concatanateing two strings because we used an expression that includes a binary operation between two expressions `Greet + Question`
 
 Consider a simple example for usage of defined bindings as expressions.
-Imagine Santa Clause 🎅 gives you 1000$ on Christmas and again 1000$ on New Year's eve.
+Imagine Santa Clause 🎅 gives you 1000$ on Christmas and again 2000$ on New Year's eve.
 The equivalent code will look like :
 
 ```js
 let FirstGiftBySanta = 1000;
 
-let SecondGiftBySanta = FirstGiftBySanta + 1000;
+let SecondGiftBySanta = FirstGiftBySanta + 2000;
 
 console.log(SecondGift);
-//output : 2000 (1000 + 1000)
+//output : 3000 (1000 + 2000)
 ```
