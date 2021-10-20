@@ -169,6 +169,17 @@ console.log(Dessert);
 //output : Sweet
 ```
 
-Both the code blocks essentially does the same thing and produces the same value. But they differ largely in the way they are defined. A person can't just read x, and guess what it is pointing at, on the other hand the variable `Dessert` is much more sensible than just `x`. So any person reading the code can guess what the variable `Dessert` is all about and be completely clueless about `x`.
+Both the code blocks essentially does the same thing and produces the same value. But they differ largely in the way they are defined. A person can't just read x, and guess what it is pointing at, on the other hand the variable `Dessert` is much more sensible than just `x`. So any person reading the code can guess what the variable `Dessert` is all about and be completely clueless about `x`, unless they get to line where `x` is defined.
 
 Although it does not make much sense or difference in toy programs like these, but in real world scenarios where the codebase is usually large and messy - naming convention has to be followed for better productivity and not waste time guessing what an identifier idnetifies!
+
+#### Naming conventions
+
+- Use indentifiers relevant to it's purpose and avoid random variables.
+- You can use characters, numerics to name variables.
+- You can use sepcial characters like `_` or `$` to name variables, but no other special characters.
+- You can not use reserved keywords to name variables.
+
+Reserved keywords are the bindings used by the program itself, native bindings of the program. Some examples of reserved keywords in JavaScript are :
+`catch try finally console propmt window process... etc.`
+_The list is super long and does not need to be memorized._
