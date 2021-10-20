@@ -77,7 +77,7 @@ The above line is literally indicating a binding and it is another kind of state
 By the example statement - it creates a binding called Greet to point towards the value `Hello World, JavaScript is amazing!`
 
 When a binding points towards a value - it does not essentially gets tied to it forever.
-Meaning, that any point of time, we can use the `=` operator again on existing bindings to make it point towards a new value.
+Meaning, that at any point of time, we can use the `=` operator again on existing bindings to make it point towards a new value.
 
 Continuation of the previous example :
 
@@ -101,7 +101,7 @@ let Welcome = Greet + Question;
 // the binding named welcome will hold the value "Hello Reader How are you liking JavaScript?"
 ```
 
-The above example may seem a little cryptic if you are an absolute beginner to programming. But what it is doing essentially is just concatanteing two strings because we used an expression that includes a binary operation between two expressions `Greet + Question`
+The above example may seem a little cryptic if you are an absolute beginner to programming. But what it is doing essentially is just concatanateing two strings because we used an expression that includes a binary operation between two expressions `Greet + Question`
 
 Consider a simple example for usage of defined bindings as expressions.
 Imagine Santa Clause 🎅 gives you 1000$ on Christmas and again 1000$ on New Year's eve.
