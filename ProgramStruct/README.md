@@ -116,7 +116,7 @@ console.log(SecondGiftBySanta);
 //output : 3000 (1000 + 2000)
 ```
 
-_When you define a binding, and do not assign it any value to point at, it ends up pointing to a bogus address. Hence if you try to retrieve the value of such a binding you are likely to see `undefined`_
+_When you define a binding, and do not assign it any value to point at, it ends up pointing to a bogus address/garbage values. Hence if you try to retrieve the value of such a binding you are likely to see `undefined`_
 
 But, you can assign a value to it later in your code. Example :
 
@@ -133,3 +133,14 @@ console.log(LuckyNumber);
 ```
 
 **Note:** To assign value to a pre-defined binding you do not have to implictly use the special `let` keyword again. Why? We have already used it to define a binding `LuckyNumber` in the above snippet.But not essentially asked it to point at a value. So in order to make a predefined binding point at something, we just simply use the `=` operator and the expression we want the binding to grab or point at.
+
+You can also use a single special `let` keyword to define more than bindings seperated by a comma. Like :
+
+```js
+let WholeNumber = 0,
+  NaturalNumber = 1,
+  EvenNumber = 2;
+
+console.log(Wholenumber + NaturalNumber + EvenNumber);
+//output : 0 + 1 + 2 = 3
+```
