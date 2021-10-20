@@ -116,12 +116,15 @@ console.log(SecondGiftBySanta);
 //output : 3000 (1000 + 2000)
 ```
 
-_When you define a binding, and do not assign it any value to point at, it ends up pointing to a bogus address. HEnce if you try to retrieve the value of such a binding you are likely to see `undefined`_
+_When you define a binding, and do not assign it any value to point at, it ends up pointing to a bogus address. Hence if you try to retrieve the value of such a binding you are likely to see `undefined`_
 
 But, you can assign a value to it later in your code. Example :
 
 ```js
 let LuckyNumber;
+
+console.log(LuckyNumber);
+//output : undefined
 
 LuckyNumber = 3;
 
