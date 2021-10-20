@@ -75,3 +75,43 @@ The above line is literally indicating a binding and it is another kind of state
 **Note:** `=` in programming is assignment operator. Not equality operator!
 
 By the example statement - it creates a binding called Greet to point towards the value `Hello World, JavaScript is amazing!`
+
+When a binding points towards a value - it does not essentially gets tied to it forever.
+Meaning, that any point of time, we can use the `=` operator again on existing bindings to make it point towards a new value.
+
+Continuation of the previous example :
+
+```js
+let Greet = "Hello Reader";
+
+let Question = "How are you liking JavaScript?";
+```
+
+As obvious as it seems - we made the binding named _Greet_ point to a new value now. And also defined a new binding named _Question_.
+
+When bindings are defined, we can use their names as expressions. Example :
+
+```js
+let Greet = "Hello Reader";
+
+let Question = "How are you liking JavaScript?";
+
+let Welcome = Greet + Question;
+
+// the binding named welcome will hold the value "Hello Reader How are you liking JavaScript?"
+```
+
+The above example may seem a little cryptic if you are an absolute beginner to programming. But what it is doing essentially is just concatanteing two strings because we used an expression that includes a binary operation between two expressions `Greet + Question`
+
+Consider a simple example for usage of defined bindings as expressions.
+Imagine Santa Clause 🎅 gives you 1000$ on Christmas and again 1000$ on New Year's eve.
+The equivalent code will look like :
+
+```js
+let FirstGiftBySanta = 1000;
+
+let SecondGiftBySanta = FirstGiftBySanta + 1000;
+
+console.log(SecondGift);
+//output : 2000 (1000 + 1000)
+```
