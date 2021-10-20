@@ -53,3 +53,25 @@ That is it. That is a statement. Although very trivial and useless admittedly, b
 **Note:** JavaScript is lineant sometimes and ignores missing semi-colons in certain cases. But the best practise would be to use them - in order to ignore the nuances of missing terminating characters.
 
 ---
+
+### How does JavaScript keep an internal state or remember values? 🤔
+
+To catch and hold values, JavaScript uses something called **Bindings** or simply variables.
+Consider the snippet below :
+
+```js
+let Greet = "Hello World, JavaScript is amazing!";
+```
+
+The above line is literally indicating a binding and it is another kind of statement.
+
+- The special keyword `let` indicates that the sentence is going to define a binding.
+  (More about these special keywords, soon)
+
+- Followed by the name of the binding.
+
+- And we immediately assigned a value to the binding by using the `=` and an expression, which is `Hello World, JavaScript is amazing!`
+
+**Note:** `=` in programming is assignment operator. Not equality operator!
+
+By the example statement - it creates a binding called Greet to point towards the value `Hello World, JavaScript is amazing!`
