@@ -16,12 +16,14 @@ Consider the following example below :
 This is an excellent example of the beauty of language based interface. The above example is really comprised of two sentences :
 
 - If the program has bugs
+
   **OR**
+
 - If the program involves division by 0
 
 We used two sub sentences to form a single sentence - and similarly two sub expressions to form a single expression.
 
-The above example is essentially a _conditional statement._ in the form of if(p or q) then r.
+The above example is essentially a _conditional statement_, in the form of `if(p or q) then r`.
 Where p , q, r are just statement variables which can be substituted by actual english.
 
 **_If an expression corresponds to a sentence fragment, a JavaScript statement corresponds to a full sentence. A program is a list of statements._**
