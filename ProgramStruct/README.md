@@ -176,7 +176,7 @@ Although it does not make much sense or difference in toy programs like these, b
 #### Naming conventions
 
 - Use indentifiers relevant to it's purpose and avoid random variables.
-- You can use characters, numerics to name variables.
+- You can use characters, numerics to name variables but don't start a variable name with a digit.
 - You can use sepcial characters like `_` or `$` to name variables, but no other special characters.
 - You can not use reserved keywords to name variables.
 
