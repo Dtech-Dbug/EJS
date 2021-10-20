@@ -50,4 +50,6 @@ That is it. That is a statement. Although very trivial and useless admittedly, b
 
 🎯 **A statement only amounts to something when it affects the environment(in context of the program scope). It could be something as simple as printing something on the console or updating a variable which is then used by some other block of code. Either cases the statements are likely to affect the program and it's state. These changes and similar changes alike are called _SIDE EFFECTS_ .**
 
+**Note:** JavaScript is lineant sometimes and ignores missing semi-colons in certain cases. But the best practise would be to use them - in order to ignore the nuances of missing terminating characters.
+
 ---
