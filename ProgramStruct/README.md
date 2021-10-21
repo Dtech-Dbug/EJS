@@ -183,3 +183,8 @@ Although it does not make much sense or difference in toy programs like these, b
 Reserved keywords are the bindings used by the program itself, native bindings of the program. Some examples of reserved keywords in JavaScript are :
 `catch try finally console propmt window process... etc.`
 _The list is super long and does not need to be memorized._
+
+### Environment
+
+The ecosystem within which all the bindings and their values exist at a given point of time is called the _environmet_ or in a more fancy term _the world of the program_.
+On startup, the environment is not empty as it contains the native bindings that are part of the program itself.Bindings like the reserved keywords and etc.
