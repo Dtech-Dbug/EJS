@@ -188,3 +188,13 @@ _The list is super long and does not need to be memorized._
 
 The ecosystem within which all the bindings and their values exist at a given point of time is called the _environmet_ or in a more fancy term _the world of the program_.
 On startup, the environment is not empty as it contains the native bindings that are part of the program itself.Bindings like the reserved keywords and etc.
+
+### Conventions
+
+There is no single answer to good coding conventions, just a few shared practices amongst developers keeping **readability, reusability and maintainability** in mind. Below are some aspects that when taken care of can skyrocket productivity.
+
+- **Identifiers -** Let us agree that naming bindings/varaiales or more mathematically identifiers is hard. It is really tempting to give it a random name to save time (which is totally okay for testing and trials) but it comes with more problems than benefits. Random names are not explanatory and anyone reasing the code will certainly be lost trying to guess what the identifier identifies, unless they get to the line where the identifier is defined. The best convention is to assign _self explanatory, and names relevant to the binding's purpose_. Hence, ditch all those `x , y , z` as far as possible and go for `userInput, arrayOfShoppingItems, primeNumber`.
+
+- **Indentations -** This is one of the aspects that makes codes more readable. Honestly, the computer does not care if you are indenting the codes or writing everything in a single line. Infact, you can write an entire program in a single line and if it is correct it will execute just fine. More interestingly, the machine codes that all the codes we write ultimately gets converted to (by the compiler software) for the computer to read and execute is a giant cryptic line of code which is super messy and absolutely not comprehensible by human. But the purpose of indentation is to make the code more readable - so that in the future you, the programmer or any other programmer working on the codebase can actually visually discern between the each statements and hence read the codes eficinetly.
+
+- **Terminating Character -** Though there are some cases where absence of a `;` does not affect the program(in High-level languages only). But it is the best practise to use it so as to save the nuances of remembering the scenarios where a `;` matters and where not.
