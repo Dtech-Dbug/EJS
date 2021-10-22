@@ -27,15 +27,13 @@ There can(and WILL) very well be cases where the program needs to be branched an
 
 Let us consider a real world scenario where branching and execution based on branching occurs.
 
-Imagine you are to buy a particular medicine(for simplicity let us assume that medicine is available in all pharmacies).
-The pseudo code will look like :
+Imagine you are to buy a dress for yourself. The pseudo code will look like:
 
 ```
  Get out of House;
 
- If you find a pharmacy shop;
- Buy the medicine;
+ Walk into an apparel store;
 
- Else Get back home
+ If you like a dress; buy it;
 
 ```
